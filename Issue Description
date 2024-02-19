@@ -1,0 +1,4 @@
+I have the below setup 
+BNG---Distribution Switch-OLT-ONT-Nokia CPE 
+Problem is that I have customer having Nokia (WiFi) cpe at home user and when it restarted for service provisioning it took long time 12 minutes to comes back online so field engineer needs to wait . I have did troubleshooting and found some 7-8 minutes silence time, with no packets. If cut access-user on BRAS then dhcp ip allocation is fast. I have checked by tracing object on the BRAS with mac-address, after rebooting the Nokia cpe.
+From the dhcp statistics on OLT side, after rebooting the Nokia cpe, OLT sees DHCP Discovery packet statistics sent by Nokia cpe after around 10 minutes so any suggestions how to solve this issue.
